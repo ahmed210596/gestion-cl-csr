@@ -1,0 +1,42 @@
+<div class="container user-list-container">
+    <h1>Product List</h1>
+    <button class="btn btn-primary"(click)="openAddProductDialog()" >Add Product</button>
+    <input type="text" [(ngModel)]="query" placeholder="Search..." />
+    <button class="btn btn-search" (click)="searchProducts()">Search</button>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Product Code</th>
+          <th>Type</th>
+          <th>Designation</th>
+          <th>Created By</th>
+          <th>Edited By</th>
+          <th>Created At</th>
+          <th>Updated At</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let product of products" class="user-item">
+          <td>{{ product.product.product_code }}</td>
+          <td>{{ product.product.typer }}</td>
+          <td>{{ product.product.designation }}</td>
+          <td>{{ product.product.creator.username }}</td>
+          <td>{{ product.product.editor?.username }}</td>
+          <td>{{ product.createdDate }}</td>
+          <td>{{ product.updatedDate }}</td>
+          <td>
+            <a class="btn btn-primary" [routerLink]="['/prod', product.product.id]" routerLinkActive="active">
+              Edit
+            </a>
+            <button (click)="openDeleteDialog(product.product.id)" class="btn btn-danger">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="pagination-buttons">
+      <button class="btn btn-primary" [disabled]="currentPage === 1" (click)="previousPage()">Previous</button>
+      <button class="btn btn-primary" (click)="nextPage()">Next</button>
+    </div>
+  </div>
+  

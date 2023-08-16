@@ -1,0 +1,106 @@
+/* Container styling */
+.container.user-list-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+.container.user-list-container h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+/* Table styling */
+.container.user-list-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.container.user-list-container th,
+.container.user-list-container td {
+  padding: 12px;
+  text-align: left;
+}
+
+.container.user-list-container th {
+  background-color: #4CAF50;
+  color: #ffffff;
+}
+
+.container.user-list-container tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Edit and delete buttons styling */
+.container.user-list-container .btn {
+  display: inline-block;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.container.user-list-container .btn-primary {
+  background-color: #4CAF50;
+}
+
+.container.user-list-container .btn-danger {
+  background-color: #e74c3c;
+}
+
+.container.user-list-container .btn:hover {
+  background-color: #333333;
+}
+
+/* Pagination button styling */
+.container.user-list-container .pagination-buttons button {
+  background-color: #4CAF50;
+  color: #ffffff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.container.user-list-container .pagination-buttons button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+/* Edit and delete buttons styling */
+.container.user-list-container .btn {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.container.user-list-container .btn-primary {
+  background-color: #4CAF50;
+}
+
+.container.user-list-container .btn-danger {
+  background-color: #e74c3c;
+}
+
+.container.user-list-container .btn:hover {
+  background-color: #333333;
+}
+
+

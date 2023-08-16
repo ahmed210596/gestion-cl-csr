@@ -1,0 +1,27 @@
+<div class="container">
+    <h2>Edit User</h2>
+    <form [formGroup]="angForm" (ngSubmit)="postdata()">
+      <div class="form-group">
+        <label for="matricule">Matricule:</label>
+        <input type="text" class="form-control" id="matricule" formControlName="matricule" required>
+      </div>
+      <div class="form-group">
+        <label for="username">username:</label>
+        <input type="text" class="form-control" id="username" formControlName="username" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" class="form-control" id="password" formControlName="password" required>
+      </div>
+      <div class="form-group">
+        <label for="password_confirm">Password:</label>
+        <input type="password_confirm" class="form-control" id="password_confirm" formControlName="password_confirm" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" formControlName="email" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Save</button>
+    </form>
+  </div>
+  

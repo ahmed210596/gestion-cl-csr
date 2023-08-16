@@ -1,0 +1,22 @@
+filebeat.inputs:
+- type: log
+  enabled: true
+  paths:
+    - /usr/share/filebeat/logs/*.log
+    #- ../logs/test.log
+  processors:
+  - add_docker_metadata:  
+  multiline.pattern: '^\['
+  multiline.negate: true
+  multiline.match: after
+
+output.elasticsearch:
+  hosts: ["http://elasticsearch:9200"]
+  index: "myindexe" 
+setup.kibana: 
+  
+  host: "http://kibana:5601"
+setup.template.name: "filebeat"
+setup.template.pattern: "filebeat-*"
+
+#host: "http://kibana:5601

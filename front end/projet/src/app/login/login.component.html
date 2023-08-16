@@ -1,0 +1,38 @@
+<div class="col-md-12">
+  <div class="card card-container">
+    <img id="profile-img" src="https://cdn2.webmanagercenter.com/wmc/wp-content/uploads/2023/01/sagemcom-filialesousse.jpg" class="profile-img-card" width="200" height="300" />
+    <form [formGroup]="loginForm" *ngIf="!isLoggedIn">
+      <div class="form-group">
+        <label for="email">Username</label>
+        <input type="text" formControlName="username" class="form-control" [ngClass]="{ 'is-invalid': submitted && f['username'].errors }" />
+        <div *ngIf="submitted && f['username'].errors" class="invalid-feedback">
+          <div *ngIf="f['username'].errors['required']">Username is required</div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" formControlName="password" class="form-control" [ngClass]="{ 'is-invalid': submitted && f['password'].errors }" />
+        <div *ngIf="submitted && f['password'].errors" class="invalid-feedback">
+          <div *ngIf="f['password'].errors['required']">Password is required</div>
+        </div>
+      </div>
+      <div class="form-group">
+        <button type="submit" (click)="onSubmit()" class="btn btn-primary">
+          <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+          Login
+        </button>
+        <a routerLink="/signup" class="btn btn-primary register-button">Register</a>
+      </div>
+      <div *ngIf="isLoginFailed" class="alert alert-danger">{{ errorMessage }}</div>
+      <a routerLink="/send-email" class="btn btn-link forgot-password-link">Forgot password?</a>
+
+    </form>
+
+    <div class="alert alert-success" *ngIf="isLoggedIn">
+      Logged in as {{ roles }}.
+    </div>
+  </div>
+</div>
+
+
+  

@@ -1,0 +1,60 @@
+<!-- edit-csr.component.html -->
+
+<div class="container mt-4">
+  <h2>Edit CSR</h2>
+  <form [formGroup]="angForm" (ngSubmit)="postdata()">
+    <div class="form-group">
+      <label for="serial">Serial:</label>
+      <select formControlName="serial" class="form-control" required>
+        <!-- <option value="selectedserialid">{{selectedserialnum}}</option> -->
+        <ng-container *ngFor="let serial of serials">
+          <option [value]="serial.id" [selected]="serial.id === selectedserialid">{{ serial.serial_number }}</option>
+        </ng-container>
+      </select>
+      <div class="invalid-feedback" *ngIf="angForm.get('serial')?.invalid && angForm.get('serial')?.touched">
+        Please select a valid serial.
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="product">Product:</label>
+      <select formControlName="product" class="form-control" required>
+         <!-- <option value="selectedproductid">{{selectedproductcode}}</option>  -->
+        
+        <ng-container *ngFor="let product of products">
+          <option [value]="product.id"  [selected]="product.id === selectedproductid" >{{product.product_code}}</option>
+        </ng-container>
+      </select>
+      <div class="invalid-feedback" *ngIf="angForm.get('product')?.invalid && angForm.get('product')?.touched">
+        Please select a valid product.
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="country">Country:</label>
+      <input type="text" class="form-control" id="country" formControlName="country" required>
+    </div>
+    <div class="form-group">
+      <label for="state">State:</label>
+      <input type="text" class="form-control" id="state" formControlName="state" required>
+    </div>
+    <div class="form-group">
+      <label for="locality">Locality:</label>
+      <input type="text" class="form-control" id="locality" formControlName="locality" required>
+    </div>
+    <div class="form-group">
+      <label for="organization">Organization:</label>
+      <input type="text" class="form-control" id="organization" formControlName="organization" required>
+    </div>
+    <div class="form-group">
+      <label for="org_unit">Organization Unit:</label>
+      <input type="text" class="form-control" id="org_unit" formControlName="org_unit" required>
+    </div>
+    <div class="form-group">
+      <label for="common_name">Common Name:</label>
+      <input type="text" class="form-control" id="common_name" formControlName="common_name" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Update CSR</button>
+  </form>
+</div>
+
+  
+  

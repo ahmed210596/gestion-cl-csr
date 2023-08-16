@@ -1,0 +1,24 @@
+<!-- edit-products.component.html -->
+<div class="container">
+    <h2>Edit Product</h2>
+  
+    <form [formGroup]="angForm" (ngSubmit)="postdata()">
+      <div class="form-group">
+        <label for="productCode">Product Code</label>
+        <input type="text" class="form-control" id="productCode" formControlName="product_code">
+      </div>
+  
+      <div class="form-group">
+        <label for="type">Type</label>
+        <input type="text" class="form-control" id="type" formControlName="typer">
+      </div>
+  
+      <div class="form-group">
+        <label for="designation">Designation</label>
+        <input type="text" class="form-control" id="designation" formControlName="designation">
+      </div>
+  
+      <button type="submit" class="btn btn-primary">Save</button>
+    </form>
+  </div>
+  

@@ -1,0 +1,19 @@
+<div class="container mt-5">
+  <h1>add Serial</h1>
+  <mat-dialog-content>
+    <form [formGroup]="angForm">
+      <div class="form-group">
+        <label for="produt_code">serial number:</label>
+        <input type="text" class="form-control" formControlName="serial_number" placeholder="Enter serial" required>
+        <div *ngIf="angForm.get('serial_number')?.invalid && angForm.get('serial_number')?.touched">
+          <small class="text-danger">Serial number is required.</small>
+        </div>
+      </div>
+    </form>
+  </mat-dialog-content>
+  <mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close color="primary">Cancel</button>
+    <button mat-button [mat-dialog-close]="true" color="accent" (click)="postdata()" [disabled]="angForm.invalid">Add</button>
+  </mat-dialog-actions>
+</div>
+

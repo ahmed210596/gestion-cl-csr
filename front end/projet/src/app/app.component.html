@@ -1,0 +1,65 @@
+<div id="app">
+  <nav class="navbar navbar-expand navbar-dark bg-dark">
+    <a href="#" class="navbar-brand">Nouri Solution</a>
+    <ul class="navbar-nav mr-auto" routerLinkActive="active">
+      <li class="nav-item">
+        <a href="/home" class="nav-link" routerLink="home" *ngIf="isLoggedIn">Home </a>
+      </li>
+      <!-- <li class="nav-item" *ngIf="is_superuser">
+        <a href="/admin" class="nav-link" routerLink="admin">Admin Board</a>
+      </li> -->
+      <!-- <li class="nav-item" *ngIf="is_superuser">
+        <a href="/list-users" class="nav-link"  routerLink="list-users">list User</a>
+
+      </li> -->
+      <!-- <li class="nav-item" *ngIf="showAdminBoard">
+        <a href="/send-email" class="nav-link" routerLink="admin">send email rest password</a>
+      </li> -->
+      <li class="nav-item" *ngIf="is_superuser">
+        <a href="/mod" class="nav-link" routerLink="mod">Moderator Board</a>
+      </li>
+      <li class="nav-item" *ngIf="is_superuser">
+        <a href="/list-users" class="nav-link"  routerLink="list-users"> Users</a>
+      </li>
+      <li class="nav-item" *ngIf="isLoggedIn">
+        <a href="/list-serial" class="nav-link"  routerLink="list-serial"> Serials</a>
+
+      </li>
+      <li class="nav-item" *ngIf="isLoggedIn">
+        <a href="/list-csr" class="nav-link"  routerLink="list-csr"> CSRS</a>
+
+      </li>
+      <li class="nav-item" *ngIf="isLoggedIn">
+        <a href="/list-prod" class="nav-link"  routerLink="list-prod">Products</a>
+      </li>
+      
+    </ul>
+
+    <ul class="navbar-nav ml-auto" *ngIf="!isLoggedIn">
+      <li class="nav-item">
+        <a href="/signup" class="nav-link" routerLink="signup">Sign Up</a>
+      </li>
+      <li class="nav-item">
+        <a href="/login" class="nav-link" routerLink="login">Login</a>
+      </li>
+    </ul>
+
+    <ul class="navbar-nav ml-auto" *ngIf="isLoggedIn">
+      <li class="nav-item">
+        <a href="/profile" class="nav-link" routerLink="profile">{{ matricule }}</a>
+      </li>
+      
+      <li class="nav-item" *ngIf="isLoggedIn"class="logout-button" >
+        <a href class="nav-link" (click)="logout()" > <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M0 1.5A1.5 1.5 0 0 1 1.5 0h10A1.5 1.5 0 0 1 13 1.5v13a1.5 1.5 0 0 1-1.5 1.5h-10A1.5 1.5 0 0 1 0 14.5v-13zm7 .5a.5.5 0 0 0-1 0v6.793L3.354 6.146a.5.5 0 1 0-.708.708l4 4a.5.5 0 0 0 .708 0l4-4a.5.5 0 1 0-.708-.708L8 9.293V2.5z"/>
+        </svg></a>
+      </li> 
+    </ul>
+  </nav>
+
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+
+

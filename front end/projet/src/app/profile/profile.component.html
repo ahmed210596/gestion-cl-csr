@@ -1,0 +1,29 @@
+<div class="container" *ngIf="currentUser; else loggedOut" class="profile-container">
+  <header class="jumbotron">
+    <h3>
+      <strong>{{ currentUser.matricule }}</strong> Profile
+    </h3>
+    <a [routerLink]="['/update-profile', currentUser.user_id]" class="btn btn-primary btn-update-profile">
+      Update My Profile
+    </a>
+  </header>
+
+  <div class="profile-info">
+    <p>
+      <strong>Email:</strong>
+      {{ currentUser.email }}
+    </p>
+    <strong>Roles:</strong>
+    <ul>
+      <li *ngIf="currentUser.is_supeuser">Admin</li>
+      <li *ngIf="!currentUser.is_supeuser">User</li>
+    </ul>
+  </div>
+</div>
+
+<ng-template #loggedOut>
+  <div class="container">
+    <p class="text-center">Please login.</p>
+  </div>
+</ng-template>
+

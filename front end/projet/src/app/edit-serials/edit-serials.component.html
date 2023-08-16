@@ -1,0 +1,14 @@
+<!-- edit-serials.component.html -->
+<div class="container">
+    <h2>Edit Serial</h2>
+  
+    <form [formGroup]="angForm" (ngSubmit)="postdata(angForm.value)">
+      <div class="form-group">
+        <label for="serialNumber">Serial Number</label>
+        <input type="text" class="form-control" id="serialNumber" formControlName="serial_number">
+      </div>
+  
+      <button type="submit" class="btn btn-primary">Save</button>
+    </form>
+  </div>
+  

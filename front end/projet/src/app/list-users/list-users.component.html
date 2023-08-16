@@ -1,0 +1,46 @@
+<div class="container user-list-container">
+  <div class="search-bar">
+    <a class="btn btn-primary btn-success" [routerLink]="['/add-user']">Add User</a>
+    <div class="search-input">
+      <input type="text" [(ngModel)]="query" placeholder="Search..." />
+      <button (click)="searchUsers()">Search</button>
+    </div>
+  </div>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Matricule</th>
+        <th>Email Address</th>
+        <th>Username</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users" class="user-item">
+        <td>{{ user.matricule }}</td>
+        <td>{{ user.email }}</td>
+        <td>{{ user.username }}</td>
+        <td>
+          <div class="action-buttons">
+            <a class="btn btn-primary btn-success" [routerLink]="['/edit', user.id]">Edit</a>
+            <button class="btn btn-danger" (click)="deleteUser(user.id)">Delete</button>
+            <button (click)="activate(user)" class="btn btn-danger">
+              {{ user.is_active ? 'Desactivate' : 'activate' }}
+            </button>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="pagination-buttons">
+    <button class="btn btn-primary" [disabled]="currentPage === 1" (click)="previousPage()">Previous</button>
+    <button class="btn btn-primary center-button" (click)="nextPage()">Next</button>
+  </div>
+</div>
+
+
+  
+  
+

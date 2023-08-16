@@ -1,0 +1,38 @@
+<div class="container mt-5">
+  <h1>add Product</h1>
+  <mat-dialog-content>
+    <form [formGroup]="angForm" (ngSubmit)="postdata()">
+      <div class="form-group">
+        <label for="product_code">Product code:</label>
+        <input type="text" class="form-control" formControlName="product_code" placeholder="Enter code" required>
+        <div *ngIf="angForm.get('product_code')?.invalid && (angForm.get('product_code')?.dirty || angForm.get('product_code')?.touched)">
+          <!-- Content to display when the conditions are met -->
+        
+          
+
+          <div *ngIf="angForm.get('product_code')?.errors?.['required']">Product code is required.</div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="type">Type:</label>
+        <input type="text" class="form-control" formControlName="typer" placeholder="Enter type" required>
+        <div *ngIf="angForm.get('typer')?.invalid && (angForm.get('typer')?.dirty || angForm.get('typer')?.touched)">
+          <div *ngIf="angForm.get('typer')?.errors?.['required']">Type is required.</div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="designation">Designation:</label>
+        <input type="text" class="form-control" formControlName="designation" placeholder="Enter designation" required>
+        <div *ngIf="angForm.get('designation')?.invalid && (angForm.get('designation')?.dirty || angForm.get('designation')?.touched)">
+          <div *ngIf="angForm.get('designation')?.errors?.['required']">Designation is required.</div>
+        </div>
+      </div>
+      <mat-dialog-actions align="end">
+        <button mat-button mat-dialog-close color="primary">Cancel</button>
+        <button mat-button type="submit" [mat-dialog-close]="true" color="accent" [disabled]="angForm.invalid">Add</button>
+      </mat-dialog-actions>
+    </form>
+  </mat-dialog-content>
+</div>
+
+

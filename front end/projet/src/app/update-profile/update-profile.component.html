@@ -1,0 +1,25 @@
+<div class="container">
+  <h2>Update Profile</h2>
+
+  <form [formGroup]="angForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="matricule">Matricule</label>
+      <input type="text" class="form-control" formControlName="matricule" placeholder="Enter matricule">
+    </div>
+
+    <div class="form-group">
+      <label for="username">Username</label>
+      <input type="text" class="form-control" formControlName="username" placeholder="Enter username">
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" class="form-control" formControlName="email" placeholder="Enter email">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update Profile</button>
+  </form>
+</div>
+
+
+  

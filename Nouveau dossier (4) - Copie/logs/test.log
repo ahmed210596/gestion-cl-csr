@@ -1,0 +1,103 @@
+
+[2023-07-02 03:51:46] INFO | index | signal | {'message': 'user visits index()'}
+[2023-07-02 03:55:43] INFO | index | signal | {'message': 'user visits index()'}
+[2023-07-02 12:09:44] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-02 12:09:51] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-02 23:44:29] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-02 23:44:48] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-03 02:37:54] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-03 02:41:16] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-03 02:53:58] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-03 03:01:16] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-06 00:44:53] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-06 00:45:22] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-06 00:45:35] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-06 00:46:15] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-06 00:46:19] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-06 01:00:52] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-07 19:20:28] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-07 19:20:52] INFO | ListKeyCSR | signal | Received POST request for ListKeyCSR
+[2023-07-07 19:20:53] INFO | ListKeyCSR | signal | User 'ahmed' successfully authenticated for POST request.
+[2023-07-07 19:21:17] ERROR | ListKeyCSR | signal | Received POST request for ListKeyCSR
+[2023-07-07 19:21:20] WARNING | ListKeyCSR | signal | User 'ahmed' successfully authenticated for POST request.
+[2023-07-07 19:21:42] INFO | ListKeyCSR | signal | Received POST request for ListKeyCSR
+[2023-07-07 19:21:44] INFO | ListKeyCSR | signal | User 'ahmed' successfully authenticated for POST request.
+[2023-07-07 19:21:57] INFO | ListKeyCSR | signal | Received POST request for ListKeyCSR
+[2023-07-07 19:21:59] INFO | ListKeyCSR | signal | User 'ahmed' successfully authenticated for POST request.
+[2023-07-07 19:23:44] INFO | ListKeyCSR | signal | Received POST request for ListKeyCSR
+[2023-07-07 19:23:45] INFO | ListKeyCSR | signal | User 'ahmed' successfully authenticated for POST request.
+[2023-07-07 19:25:11] INFO | ListKeyCSR | signal | Received POST request for ListKeyCSR
+[2023-07-07 19:25:11] INFO | ListKeyCSR | signal | User 'ahmed' successfully authenticated for POST request.
+[2023-07-07 19:28:11] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-07 19:41:16] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-07 19:42:44] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-07 19:42:54] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-07 19:43:54] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-07 19:44:32] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-07 19:45:01] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-07 19:45:32] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-08 00:56:33] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-08 00:57:08] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-08 01:00:47] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-08 01:02:53] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-08 01:36:17] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-08 12:17:33] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-08 12:18:08] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-08 13:28:45] DEBUG | ProductList | signal | Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFub3VyaTMzOUBnbWFpbC5jb20iLCJpc19zdXBldXNlciI6dHJ1ZSwibWF0cmljdWxlIjoiMTIzIiwidXNlcm5hbWUiOiJhaG1lZCJ9.UswvlMJLweCKLLCrQPGLBBXgnopyACKFJHnY3ARpF2Y
+[2023-07-08 13:28:45] DEBUG | ProductList | signal | Extracted token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFub3VyaTMzOUBnbWFpbC5jb20iLCJpc19zdXBldXNlciI6dHJ1ZSwibWF0cmljdWxlIjoiMTIzIiwidXNlcm5hbWUiOiJhaG1lZCJ9.UswvlMJLweCKLLCrQPGLBBXgnopyACKFJHnY3ARpF2Y
+[2023-07-08 13:28:46] DEBUG | ProductList | signal | Authenticated user: anouri339@gmail.com
+[2023-07-08 13:28:46] INFO | ProductList | signal | Product created by user: anouri339@gmail.com
+[2023-07-08 13:29:03] DEBUG | ProductList | signal | Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFub3VyaTMzOUBnbWFpbC5jb20iLCJpc19zdXBldXNlciI6dHJ1ZSwibWF0cmljdWxlIjoiMTIzIiwidXNlcm5hbWUiOiJhaG1lZCJ9.UswvlMJLweCKLLCrQPGLBBXgnopyACKFJHnY3ARpF2Y
+[2023-07-08 13:29:03] DEBUG | ProductList | signal | Extracted token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFub3VyaTMzOUBnbWFpbC5jb20iLCJpc19zdXBldXNlciI6dHJ1ZSwibWF0cmljdWxlIjoiMTIzIiwidXNlcm5hbWUiOiJhaG1lZCJ9.UswvlMJLweCKLLCrQPGLBBXgnopyACKFJHnY3ARpF2Y
+[2023-07-08 13:29:04] DEBUG | ProductList | signal | Authenticated user: anouri339@gmail.com
+[2023-07-08 13:29:04] INFO | ProductList | signal | Product created by user: anouri339@gmail.com
+[2023-07-08 13:30:35] DEBUG | ProductList | signal | Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFub3VyaTMzOUBnbWFpbC5jb20iLCJpc19zdXBldXNlciI6dHJ1ZSwibWF0cmljdWxlIjoiMTIzIiwidXNlcm5hbWUiOiJhaG1lZCJ9.UswvlMJLweCKLLCrQPGLBBXgnopyACKFJHnY3ARpF2Y
+[2023-07-08 13:30:35] DEBUG | ProductList | signal | Extracted token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFub3VyaTMzOUBnbWFpbC5jb20iLCJpc19zdXBldXNlciI6dHJ1ZSwibWF0cmljdWxlIjoiMTIzIiwidXNlcm5hbWUiOiJhaG1lZCJ9.UswvlMJLweCKLLCrQPGLBBXgnopyACKFJHnY3ARpF2Y
+[2023-07-08 13:30:36] DEBUG | ProductList | signal | Authenticated user: anouri339@gmail.com
+[2023-07-08 13:30:36] INFO | ProductList | signal | Product created by user: anouri339@gmail.com
+[2023-07-08 13:37:20] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-08 13:38:11] INFO | ListKeyCSR | signal | Received POST request for ListKeyCSR
+[2023-07-08 13:38:11] INFO | ListKeyCSR | signal | User 'ahmed' successfully authenticated for POST request.
+[2023-07-08 13:38:12] INFO | ListKeyCSR | signal | KeyCSR object created successfully by user 'ahmed' for POST request.
+[2023-07-08 13:38:12] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-08 14:21:53] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-08 14:22:09] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-08 18:56:40] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-08 19:28:52] DEBUG | ProductList | signal | Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFub3VyaTMzOUBnbWFpbC5jb20iLCJpc19zdXBldXNlciI6dHJ1ZSwibWF0cmljdWxlIjoiMTIzIiwidXNlcm5hbWUiOiJhaG1lZCJ9.UswvlMJLweCKLLCrQPGLBBXgnopyACKFJHnY3ARpF2Y
+[2023-07-08 19:28:52] DEBUG | ProductList | signal | Extracted token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFub3VyaTMzOUBnbWFpbC5jb20iLCJpc19zdXBldXNlciI6dHJ1ZSwibWF0cmljdWxlIjoiMTIzIiwidXNlcm5hbWUiOiJhaG1lZCJ9.UswvlMJLweCKLLCrQPGLBBXgnopyACKFJHnY3ARpF2Y
+[2023-07-08 19:28:53] DEBUG | ProductList | signal | Authenticated user: anouri339@gmail.com
+[2023-07-08 19:28:53] INFO | ProductList | signal | Product created by user: anouri339@gmail.com
+[2023-07-08 19:30:56] DEBUG | ProductList | signal | Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFub3VyaTMzOUBnbWFpbC5jb20iLCJpc19zdXBldXNlciI6dHJ1ZSwibWF0cmljdWxlIjoiMTIzIiwidXNlcm5hbWUiOiJhaG1lZCJ9.UswvlMJLweCKLLCrQPGLBBXgnopyACKFJHnY3ARpF2Y
+[2023-07-08 19:30:56] DEBUG | ProductList | signal | Extracted token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFub3VyaTMzOUBnbWFpbC5jb20iLCJpc19zdXBldXNlciI6dHJ1ZSwibWF0cmljdWxlIjoiMTIzIiwidXNlcm5hbWUiOiJhaG1lZCJ9.UswvlMJLweCKLLCrQPGLBBXgnopyACKFJHnY3ARpF2Y
+[2023-07-08 19:30:57] DEBUG | ProductList | signal | Authenticated user: anouri339@gmail.com
+[2023-07-08 19:30:57] INFO | ProductList | signal | Product created by user: anouri339@gmail.com
+[2023-07-08 19:31:18] DEBUG | ProductList | signal | Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFub3VyaTMzOUBnbWFpbC5jb20iLCJpc19zdXBldXNlciI6dHJ1ZSwibWF0cmljdWxlIjoiMTIzIiwidXNlcm5hbWUiOiJhaG1lZCJ9.UswvlMJLweCKLLCrQPGLBBXgnopyACKFJHnY3ARpF2Y
+[2023-07-08 19:31:18] DEBUG | ProductList | signal | Extracted token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFub3VyaTMzOUBnbWFpbC5jb20iLCJpc19zdXBldXNlciI6dHJ1ZSwibWF0cmljdWxlIjoiMTIzIiwidXNlcm5hbWUiOiJhaG1lZCJ9.UswvlMJLweCKLLCrQPGLBBXgnopyACKFJHnY3ARpF2Y
+[2023-07-08 19:31:20] DEBUG | ProductList | signal | Authenticated user: anouri339@gmail.com
+[2023-07-08 19:31:20] INFO | ProductList | signal | Product created by user: anouri339@gmail.com
+[2023-07-08 19:31:34] DEBUG | ProductList | signal | Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFub3VyaTMzOUBnbWFpbC5jb20iLCJpc19zdXBldXNlciI6dHJ1ZSwibWF0cmljdWxlIjoiMTIzIiwidXNlcm5hbWUiOiJhaG1lZCJ9.UswvlMJLweCKLLCrQPGLBBXgnopyACKFJHnY3ARpF2Y
+[2023-07-08 19:31:34] DEBUG | ProductList | signal | Extracted token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFub3VyaTMzOUBnbWFpbC5jb20iLCJpc19zdXBldXNlciI6dHJ1ZSwibWF0cmljdWxlIjoiMTIzIiwidXNlcm5hbWUiOiJhaG1lZCJ9.UswvlMJLweCKLLCrQPGLBBXgnopyACKFJHnY3ARpF2Y
+[2023-07-08 19:31:35] DEBUG | ProductList | signal | Authenticated user: anouri339@gmail.com
+[2023-07-08 19:31:35] INFO | ProductList | signal | Product created by user: anouri339@gmail.com
+[2023-07-08 19:42:06] DEBUG | ProductList | signal | Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFub3VyaTMzOUBnbWFpbC5jb20iLCJpc19zdXBldXNlciI6dHJ1ZSwibWF0cmljdWxlIjoiMTIzIiwidXNlcm5hbWUiOiJhaG1lZCJ9.UswvlMJLweCKLLCrQPGLBBXgnopyACKFJHnY3ARpF2Y
+[2023-07-08 19:42:06] DEBUG | ProductList | signal | Extracted token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFub3VyaTMzOUBnbWFpbC5jb20iLCJpc19zdXBldXNlciI6dHJ1ZSwibWF0cmljdWxlIjoiMTIzIiwidXNlcm5hbWUiOiJhaG1lZCJ9.UswvlMJLweCKLLCrQPGLBBXgnopyACKFJHnY3ARpF2Y
+[2023-07-08 19:42:07] DEBUG | ProductList | signal | Authenticated user: anouri339@gmail.com
+[2023-07-08 19:42:07] INFO | ProductList | signal | Product created by user: anouri339@gmail.com
+[2023-07-09 20:04:58] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-09 20:09:25] DEBUG | ProductList | signal | Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFub3VyaTMzOUBnbWFpbC5jb20iLCJpc19zdXBldXNlciI6dHJ1ZSwibWF0cmljdWxlIjoiMTIzIiwidXNlcm5hbWUiOiJhaG1lZCJ9.UswvlMJLweCKLLCrQPGLBBXgnopyACKFJHnY3ARpF2Y
+[2023-07-09 20:09:25] DEBUG | ProductList | signal | Extracted token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFub3VyaTMzOUBnbWFpbC5jb20iLCJpc19zdXBldXNlciI6dHJ1ZSwibWF0cmljdWxlIjoiMTIzIiwidXNlcm5hbWUiOiJhaG1lZCJ9.UswvlMJLweCKLLCrQPGLBBXgnopyACKFJHnY3ARpF2Y
+[2023-07-09 20:09:25] DEBUG | ProductList | signal | Authenticated user: anouri339@gmail.com
+[2023-07-09 20:09:25] INFO | ProductList | signal | Product created by user: anouri339@gmail.com
+[2023-07-09 20:10:19] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-09 20:44:37] DEBUG | ProductList | signal | Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFub3VyaTMzOUBnbWFpbC5jb20iLCJpc19zdXBldXNlciI6dHJ1ZSwibWF0cmljdWxlIjoiMTIzMCIsInVzZXJuYW1lIjoiYWhtZWRubyJ9.nyxUyhVXlxmJcPTeeP8_9hOOScoqnALrocrLsgRte7w
+[2023-07-09 20:44:37] DEBUG | ProductList | signal | Extracted token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImFub3VyaTMzOUBnbWFpbC5jb20iLCJpc19zdXBldXNlciI6dHJ1ZSwibWF0cmljdWxlIjoiMTIzMCIsInVzZXJuYW1lIjoiYWhtZWRubyJ9.nyxUyhVXlxmJcPTeeP8_9hOOScoqnALrocrLsgRte7w
+[2023-07-09 20:44:38] DEBUG | ProductList | signal | Authenticated user: anouri339@gmail.com
+[2023-07-09 20:44:38] INFO | ProductList | signal | Product created by user: anouri339@gmail.com
+[2023-07-09 20:46:14] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-09 20:47:17] INFO | ListKeyCSR | signal | Received POST request for ListKeyCSR
+[2023-07-09 20:47:18] INFO | ListKeyCSR | signal | User 'ahmedno' successfully authenticated for POST request.
+[2023-07-09 20:47:19] INFO | ListKeyCSR | signal | KeyCSR object created successfully by user 'ahmedno' for POST request.
+[2023-07-09 20:47:20] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-09 20:47:37] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-09 20:47:39] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR
+[2023-07-09 20:47:43] INFO | ListKeyCSR | signal | Received GET request for ListKeyCSR

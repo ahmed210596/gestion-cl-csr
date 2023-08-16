@@ -1,0 +1,38 @@
+<div class="container">
+    <h1> key's CSR List</h1>
+    <a class="btn btn-primary" 
+        [routerLink]="['/add-csr']" (click)="true" class="btn btn-success" routerLinkActive="active">
+        add csr
+      </a>
+    <table class="table">
+        <thead> 
+            <th>product</th>
+            <th>serial</th>
+            <th>created by</th>
+            <th>edited by</th>
+            <th>time start</th>
+            <th>time end</th>
+            <th>actions</th>
+            
+        </thead>
+        <tbody>
+            <tr *ngFor="let key of keys">
+                <td>{{key.product.product_code}}</td>
+                <td>{{key.serial.serial_number}}</td>
+                <td>{{key.creater.username}}</td>
+                <td>{{key.editor?.username}}</td>
+                <td>{{key.timestamp_epoch_time_start}}</td>
+                <td>{{key.timestamp_epoch_time_end}}</td>
+                <td>
+                    <a class="btn btn-primary" 
+                        [routerLink]="['/edit-csr', key.id]" class="btn btn-success" [class.disabled]="!key.status">
+                        Edit
+                    </a>
+                    <button  (click)="toggleKeyStatus(key)" class="btn btn-danger">
+                        {{ key.status ? 'Disable' : 'Enable' }}
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </div>

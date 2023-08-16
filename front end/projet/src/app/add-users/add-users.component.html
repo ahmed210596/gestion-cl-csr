@@ -1,0 +1,28 @@
+<div class="container mt-5">
+    <h1>add User</h1>
+    <form [formGroup]="angForm" (ngSubmit)="postdata()">
+      <div class="form-group">
+        <label for="matricule">Matricule:</label>
+        <input type="text" class="form-control" formControlName="matricule" placeholder="Enter Matricule" required>
+      </div>
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" class="form-control" formControlName="username" placeholder="Enter username" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" class="form-control" formControlName="password" placeholder="Enter Password" required>
+      </div>
+      <div class="form-group">
+        <label for="password_confirm">Password:</label>
+        <input type="password" class="form-control" formControlName="password_confirm" placeholder="retype Password" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" formControlName="email" placeholder="Enter Email" required>
+      </div>
+     
+      <button type="submit" class="btn btn-primary" [disabled]="!angForm.valid">Submit</button>
+    </form>
+    </div>
+  
